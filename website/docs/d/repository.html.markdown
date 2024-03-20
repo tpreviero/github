@@ -73,7 +73,7 @@ The following arguments are supported:
 
 * `archived` - Whether the repository is archived.
 
-* `pages` - The repository's GitHub Pages configuration.
+* `pages` - **Deprecated**: use `github_repository_pages` instead.
 
 * `topics` - The list of topics of the repository.
 
