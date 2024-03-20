@@ -249,6 +249,7 @@ func resourceGithubRepository() *schema.Resource {
 				Type:        schema.TypeList,
 				MaxItems:    1,
 				Optional:    true,
+				Deprecated:  "Use github_repository_pages instead",
 				Description: "The repository's GitHub Pages configuration",
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
